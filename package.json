@@ -1,28 +1,17 @@
 {
-  "name": "liri-node-app",
+  "name": "hw-solution",
   "version": "1.0.0",
-  "main": ".env.js",
+  "description": "",
+  "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexspatrick/liri-node-app.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexspatrick/liri-node-app/issues"
-  },
-  "homepage": "https://github.com/alexspatrick/liri-node-app#readme",
   "dependencies": {
-    "install": "^0.10.4",
+    "dotenv": "^4.0.0",
     "node-spotify-api": "^1.0.7",
-    "npm": "^5.6.0",
-    "request-js": "^1.0.1",
-    "twitter": "^1.7.1",
-    "twitter-js": "^0.1.1"
-  },
-  "devDependencies": {},
-  "description": ""
+    "request": "^2.83.0",
+    "twitter": "^1.7.0"
+  }
 }
